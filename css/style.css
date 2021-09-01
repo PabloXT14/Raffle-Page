@@ -1,0 +1,123 @@
+/* ========== Global Styling ========== */
+html {
+    font-size: 62.5%;/*1rem = 10px*/
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #6EF58F, #6AEBAD 70%, #55BD8C);
+}
+
+/* ========== Raffle Page Styling ========== */
+.wrapper {
+    max-width: 55rem;
+    margin: 1.5rem auto;
+}
+
+.wrapper h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #3f3f3f;
+}
+
+/* BoxSort Styling */
+.wrapper .sortNumb, .wrapper .sortPes {
+    background: #EEE;
+    margin: 1.5rem 1rem;
+    padding: 2.3rem 2rem;
+    border-radius: 5px;
+}
+
+.sortNumb h2, .sortPes h2 {
+    font-size: 1.2em;
+    margin-bottom: 1rem;
+}
+
+.inputField.numbers {
+    display: grid;
+    grid-template-columns: 0.45fr 0.1fr 0.45fr;
+    grid-template-rows: 1fr;
+    place-items: center;
+    margin-bottom: 1rem;
+}
+
+.inputField.numbers input {
+    width: 7.2rem;
+    text-align: center;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 1rem;
+    font-size: 1.5em;
+}
+
+.inputField.numbers input:placeholder-shown {
+    font-size: 1em;
+}
+
+.inputField.numbers span {
+    font-size: 1.5em;
+}
+
+.inputField.names textarea {
+    width: 100%;
+    height: 10rem;
+    resize: none;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.sortNumb button, .sortPes button {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    padding: 1rem 0;
+    font-size: 1.1em;
+    font-weight: 500;
+    background: #21BF30;
+    box-shadow: 2px 2px 3px #333;
+    color: #FFF;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.sortNumb button:hover, .sortPes button:hover {
+    background: #188F24;
+}
+
+.sortNumb button:active, .sortPes button:active {
+    box-shadow: none;
+    transform: scale(0.97);
+}
+
+
+.sortNumb p, .sortPes p {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.sortNumb p span, .sortPes p span {
+    display: inline-block;
+    min-width: 15rem;
+    min-height: 2.7rem;
+    background: #FFF;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 0 1rem;
+    margin-left: 1rem;
+    text-align: center;
+}

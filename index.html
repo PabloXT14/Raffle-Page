@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raffle Page</title>
+    <!-- CSS Styling -->
+    <link type="text/css" rel="stylesheet" href="./css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Pagina de Sorteio</h1>
+
+        <div class="sortNumb">
+            <h2>Sortear um número entre</h2>
+            <div class="inputField numbers">
+                <input type="number" id="n1" placeholder="min"> <span>e</span> <input type="number" id="n2" placeholder="max">
+            </div>
+            <button class="btnNumb">Sortear</button>
+            <p>Resultado: <span class="resultNumb"></span></p>
+        </div>
+
+        <div class="sortPes">
+            <h2>Digite o nome de pessoas para sortear</h2>
+            <div class="inputField names">
+                <textarea id="names" placeholder="separe os nomes com vírgulas"></textarea>
+            </div>
+            <button class="btnPes">Sortear</button>
+            <p>Resultado: <span class="resultPes"></span></p>
+        </div>
+    </div>
+    
+
+
+    <script src="./scripts/scripts.js"></script>
+</body>
+</html>
