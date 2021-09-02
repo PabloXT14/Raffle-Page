@@ -15,5 +15,5 @@ Site de sorteio/rifas, desenvolvido com HTML, CSS e JavaScript, com o objetivo p
 
 ## ⚙ Settings
 * Para executar o projeto basta rodar o arquivo index.html em algum browser
-* Ou acessar: https://pabloxt14.github.io/Landing-Page/
+* Ou acessar: https://pabloxt14.github.io/Raffle-Page/
 * Obs: a página está responsiva, então pode executá-la até mesmo no celular
